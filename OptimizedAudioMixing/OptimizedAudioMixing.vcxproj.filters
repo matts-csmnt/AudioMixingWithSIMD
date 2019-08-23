@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AudioMixPrototype.cpp" />
+    <ClCompile Include="WaveFile.cpp" />
+    <ClCompile Include="Profiler.cpp">
+      <Filter>profiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="WaveFile.h" />
+    <ClInclude Include="Profiler.h">
+      <Filter>profiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="profiler">
+      <UniqueIdentifier>{47688e89-9b22-4c2f-99bc-fae8536f8e8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
